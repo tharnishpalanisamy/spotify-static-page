@@ -13,6 +13,7 @@ img{
     width: 250px;
     height: 250px;
     border: 6px solid #55a630;
+    border-radius: 10px;
     
 }
 .container{
@@ -38,6 +39,15 @@ p{
 }
 .songs{
     border: 6px solid whitesmoke;
+    border-radius: 10px;
     background-color: black;
-    padding: 15px 15px 60px 15px;
+    padding: 15px;
+}
+.songs:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+.container {
+  justify-content: center;
+  gap: 30px;
 }
